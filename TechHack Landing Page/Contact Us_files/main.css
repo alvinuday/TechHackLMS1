@@ -130,7 +130,7 @@ iframe {
     justify-content:center;
     background: linear-gradient(left, #0072ff, #00c6ff);
  /*  width: 90%; */
-  min-height: 80%;
+  min-height: 100%;
   padding: 15px;
   
   /* background: linear-gradient(left, #0509db, #00c6ff); */
@@ -147,7 +147,7 @@ iframe {
 }
 .container-contact1 {
     width: 1103px;
-    height: 75vh;
+    height: 85vh;
     /* position: relative;
     top: 100px; */
     background: #fff;
