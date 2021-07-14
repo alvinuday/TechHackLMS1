@@ -296,14 +296,17 @@ button:focus {
   padding-right: 70px; }
 
 /* Preloader */
-#preloader {
+#preloader1 {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
-  z-index: 9999999; }
+ background-image: radial-gradient( circle farthest-corner at 50% 50%,  rgb(0, 7, 110) 0.1%, rgb(57, 67, 214) 90% );
+  z-index: 9999999;
+  height: 100vh;
+  width:100vw; 
+transistion: all 1s;}
 
 .loader {
   top: 50%;
