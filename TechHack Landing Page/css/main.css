@@ -15,8 +15,8 @@ Domain Path:      /languages/
    ========================================================================== */
 body {
   font-family: 'Rubik', sans-serif;
-  color: #a0a6ad;
-  font-size: 14px;
+  color: #000000;
+  font-size: 18px;
   font-weight: 400;
   background: rgb(255, 255, 255);
   overflow-x: hidden; }
@@ -119,6 +119,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all 0.3s ease-in-out;
   display: inline-block; }
 
+  .submit-button {
+    display: flex;
+    justify-content: center;
+  }
+
 .btn:focus,
 .btn:active {
   box-shadow: none;
@@ -191,6 +196,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   padding: 10px 23px;
   margin-left: 30px;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17); }
+  .btn-singin.1 {
+      padding:20px;
+  }
 
 .btn-singin:hover,
 .btn-singin:active,
@@ -534,7 +542,7 @@ backdrop-filter: blur( 4px );
         background: #fff;
         color: #5d89c4; }
   .hero-area .intro-img {
-    padding: 180px 0 0px; }
+    padding: 150px 0 0px; }
     .hero-area .intro-img img {
       display: block;
       height: auto;
@@ -594,7 +602,7 @@ backdrop-filter: blur( 4px );
   #business-plan .business-item-info {
     margin-top: 60px; }
     #business-plan .business-item-info h3 {
-      font-size: 35px;
+      font-size: 25px;
       font-weight: 600;
       margin-bottom: 25px; }
     #business-plan .business-item-info p {
@@ -1032,13 +1040,15 @@ backdrop-filter: blur( 4px );
     left: 20%;
     top: 10px; }
   #pricing .pricing-table ul {
-    padding-bottom: 28px; }
+    padding-bottom: 28px;
+    list-style: disc;  }
   #pricing .pricing-table ul li {
     font-size: 16px;
     font-weight: 400;
     color: #5e629c;
     display: block;
-    line-height: 33px; }
+    line-height: 33px;
+  }
   #pricing .pricing-table:hover {
     border: 1px solid #3ecf8e;
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
