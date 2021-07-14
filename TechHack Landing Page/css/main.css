@@ -1005,6 +1005,10 @@ backdrop-filter: blur( 4px );
     margin-top: 8px;
     margin-left: 5px; }
 
+    .profile-img {
+      border-radius: 50%;
+      height: 120px;
+    }
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
